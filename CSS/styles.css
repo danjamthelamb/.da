@@ -7,7 +7,7 @@ h1 {
 
 body {
   margin: 0;
-  font-family: 'Viaoda Libre', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
 }
 
@@ -21,9 +21,9 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Viaoda Libre', cursive;
   color: #7B6079;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 a:link {
@@ -56,10 +56,14 @@ a:hover {
 }
 
 .bottomContainer {
+  background-color: #A7D0CD;
+  margin: 0;
+  padding: 50px 0 20px;
 }
 
 .emphasis {
   font-style: italic;
+  margin-right: 5px;
 }
 
 .bottom-cloud {
@@ -73,10 +77,11 @@ a:hover {
 }
 
 .mountain {
-  width: 598px;
-  margin-left: auto;
-  margin-right: auto;
-  vertical-align: baseline;
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  bottom: 0;
 }
 
 .blurb {
@@ -88,12 +93,85 @@ a:hover {
 
 }
 
-.trom-img {
-  width: 200px;
-  border-radius: 50%;
+.py-img {
+  width: 50%;
+  max-width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.ml-img {
+  width: 50%;
+  max-width: 200px;
+  float: right;
+  margin-right: 30px;
 }
 
 .inner {
   padding-top: 200px;
   line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.mid-divide {
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 10%;
+  color: #A7D0CD;
+  margin: 100px auto;
+  opacity: .4;
+}
+
+.copyright {
+  padding: 20px 0;
+  color: white;
+}
+
+.footer-link {
+  margin: 0 20px;
+}
+
+.btn {
+  background: #AAD8D3;
+  background-image: -webkit-linear-gradient(top, #AAD8D3, #00ADB5);
+  background-image: -moz-linear-gradient(top, #AAD8D3, #00ADB5);
+  background-image: -ms-linear-gradient(top, #AAD8D3, #00ADB5);
+  background-image: -o-linear-gradient(top, #AAD8D3, #00ADB5);
+  background-image: linear-gradient(to bottom, #AAD8D3, #00ADB5);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 60px auto;
+}
+
+.btn:hover {
+  background: #98DED9;
+  text-decoration: none;
+}
+
+.contact-msg {
+  margin: 40px auto 60px;
+  width: 50%
+}
+
+.desc {
+  width: 50%;
+  margin: 25px auto;
+}
+
+.icon {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
 }
