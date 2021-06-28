@@ -41,6 +41,7 @@ a:hover {
 .topContainer {
   background-color: #A7D0CD;
   height: 100vh;
+  min-height: 700px;
   padding: 0;
 
 }
@@ -174,4 +175,8 @@ a:hover {
 .icon {
   font-family: 'Montserrat', sans-serif;
   font-size: 8px;
+}
+
+.skill-header {
+  text-decoration: underline;
 }
