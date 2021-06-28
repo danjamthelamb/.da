@@ -1,0 +1,99 @@
+h1 {
+  margin: 0;
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 3em;
+  color: #DE8971;
+}
+
+body {
+  margin: 0;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 24px;
+}
+
+.center {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #DE8971;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #7B6079;
+  font-weight: normal;
+}
+
+a:link {
+  color: #184D47;
+}
+
+a:visited {
+  color: #184D47
+}
+
+a:hover {
+  color: #C64756;
+}
+
+.topContainer {
+  background-color: #A7D0CD;
+  height: 100vh;
+  padding: 0;
+
+}
+
+.transistion-gradient {
+  height: 100px;
+  background: linear-gradient(#A7D0CD, white);
+}
+
+.midContainer {
+  position: relative;
+  top: -100px;
+}
+
+.bottomContainer {
+}
+
+.emphasis {
+  font-style: italic;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 60%;
+}
+
+.top-cloud {
+  position: relative;
+  left: 20%;
+}
+
+.mountain {
+  width: 598px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: baseline;
+}
+
+.blurb {
+  margin: 0;
+}
+
+.profile-img {
+  width: 200px;
+
+}
+
+.trom-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.inner {
+  padding-top: 200px;
+  line-height: 2;
+}
